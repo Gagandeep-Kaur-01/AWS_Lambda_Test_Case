@@ -1,0 +1,26 @@
+{
+  "name": "testcases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.ts",
+  "scripts": {
+    "test": "mocha dist/Test/handler.test.js",
+    "build": "tsc"
+  },
+  "author": "Gagandeep Kaur",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.114",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1339.0",
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.3"
+  }
+}
